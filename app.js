@@ -81,3 +81,32 @@ net.createServer(function (socket) {
 
 
 
+// First use npm init react-app MyNewApp to create a new react app
+// Then test using npm start (now you only have the front end, not the server)
+// Next we will add a server, there are a few dependencies that will be helpful:
+// - nodemon: for automatically restarting the server
+// - node-env-run: for loading environment variable in a config file in development
+// - npm-run-all: for running multiple npm scripts at the same time
+// - express-pino-logger and pino-colada: for better server logging
+
+
+/**
+ * a file called .env store our environment variables
+ * will be useful for including credentials like API keys
+ * 
+ * and you will add a folder called server, and then add the server code into
+ * a file called index.js
+ * 
+ * then you can add the command to run in your package.
+ * 
+ * and then you can link the two using proxy in your server and 
+ * a run script dev that run both the front end and the server
+ * 
+ * so this is most likely how this was set up with react + express
+ *  
+ *  now we just need to learn how to put the database into this
+ * 
+ */
+
+
+
