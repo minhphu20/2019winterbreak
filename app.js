@@ -108,5 +108,24 @@ net.createServer(function (socket) {
  * 
  */
 
+/**
+ * MongoDB:
+ * Document-oriented NoSQL database for high volume data storage
+ * Created around mid 2000s
+ * 
+ * There are 4 main types of NoSQL:
+ * - key value pair based (based on Amazon Dynamo paper, best for shopping card content)
+ * - document based (key value but in document, best for content management, blogging platform, real-time analytics, e-commerce application, document in json/xml format Eg: Amazon SimpleDB, MongoDB)
+ * - - should not be used for complex transactions which require multiple operations or queries against varying aggregate structures
+ * - column based (based on Google BigTable, best for aggregate queries, used to manage data warehouse, business intelligence, library and catalogs, Eg: Cassandra)
+ * - graph based (mostly for social network, logistics, spatial data)
+ * 
+ */
+
+/**
+ * Search for document within a collection
+ * 
+ * Done reading https://www.guru99.com/mongodb-tutorials.html tutorials
+ */
 
 
